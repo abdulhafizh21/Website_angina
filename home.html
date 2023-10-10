@@ -1,105 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="/fontawesome/css/all.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web angina</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo"><img src="/gambar/logo angina.png" alt=""></a>
 
-      <div class="container-fluid">
-
-          <div class="navb-logo">
-              <img src="/gambar/logo angina.png" alt="Logo">
-          </div>
-
-          <div class="navb-items d-none d-xl-flex">
-
-              <div class="item">
-                  <a href="/">Beranda</a>
-              </div>
-
-              <div class="item">
-                  <a href="/Info Kesehatan">Info Kesehatan</a>
-              </div>
-
-              <div class="item">
-                  <a href="/Konsultasi">Konsultasi</a>
-              </div>
-
-              <!-- <div class="item">
-                  <a href="/about">About</a>
-              </div> -->
-
-              <div class="item-button">
-                  <a href="/Login" type="button">Masuk</a>
-              </div>
-          </div>
-
-          <!-- Button trigger modal -->
-          <div class="mobile-toggler d-lg-none">
-              <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
-                  <i class="fa-solid fa-bars"></i>
-              </a>
-          </div>
-
-          <!-- Modal -->
-          <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog">
-                  <div class="modal-content">
-
-                      <div class="modal-header">
-                          <img src="/gambar/logo angina.png" alt="Logo">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
-                      </div>
-
-                      <div class="modal-body">
-                          
-                          <div class="modal-line">
-                              <i class="fa-solid fa-house"></i><a href="/">Beranda</a>
-                          </div>
-
-                          <div class="modal-line">
-                              <i class="fa-solid fa-bell-concierge"></i><a href="/Info Kesehatan">Info Kesehatan</a>
-                          </div>
-
-                          <div class="modal-line">
-                              <i class="fa-solid fa-file-lines"></i> <a href="/Konsultasi">Konsultasi</a>
-                          </div>
-
-                          <a href="/login" class="navb-button" type="button">Masuk</a>
-                      </div>
-
-                      <!-- <div class="mobile-modal-footer">
-                          
-                          <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
-                          <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                          <a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
-                          <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
-                      </div> -->
-                  </div>
-              </div>
-          </div>
-
-      </div>
+    <ul class="navbar">
+      <li><a href="#" class="active">Beranda</a></li>
+      <li><a href="#">Info Kesehatan</a></li>
+      <li><a href="#">Konsultasi</a></li>
+    </ul>
+    <div class="main">
+      <a href="#" class="user"><i class="ri-user-fill"></i>Masuk</a>
+      <a href="#">Daftar</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
   </header>
-
-    <!-- Navbar -->
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    ></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
