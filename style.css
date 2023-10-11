@@ -75,6 +75,15 @@ height: 40px;
     font-size: 28px;
     margin-right: 7px;
 }
+.main .daftar {
+    border: none;
+    background:var(--bg-color);
+    border-radius: 5px;
+}
+.main .daftar:hover{
+    background: #016a7076;
+    color: var(--bg-color);
+}
 .main a:hover{
     color: var(--main-color);
 }
@@ -119,4 +128,18 @@ transition: all .50s ease;
     right: 2%;
 
 }
+}
+
+.gambarHome{
+    position: absolute;
+    left: 50%; 
+    width: 500px;
+    height: 301px;
+}
+.containerHome{
+    position: relative;
+    padding: 150px;
+}
+.isiHome .paragraf2{
+    font-family: lato,sans-serif;
 }
