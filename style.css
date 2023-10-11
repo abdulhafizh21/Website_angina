@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    list-style: none;
+    
 }
 :root {
     --bg-color: fff;
@@ -17,6 +17,7 @@ body{
     color: var(--text-color);
 }
 header{
+    
     box-shadow: 4px 4px rgba(0, 0, 0, 0.381);
     position: fixed;
     width: 100%;
@@ -38,6 +39,7 @@ width: 60px;
 height: 40px;
 }
 .navbar {
+    list-style: none;
     display: flex;
 }
 .navbar a{
@@ -130,16 +132,24 @@ transition: all .50s ease;
 }
 }
 
-.gambarHome{
-    position: absolute;
-    left: 50%; 
-    width: 500px;
-    height: 301px;
-}
 .containerHome{
     position: relative;
     padding: 150px;
 }
 .isiHome .paragraf2{
     font-family: lato,sans-serif;
+}
+.isiHome ul{
+    
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.isiHome ul li{
+    font-family: lato,sans-serif;
+    display: list-item;
 }
