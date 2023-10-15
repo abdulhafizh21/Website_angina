@@ -13,6 +13,7 @@
     --main-color: #016A70;
 
     --main-font: 'Poppins', sans-serif;
+    --main2-font: 'Lato', sans-serif;
 }
 body {
     margin: 0;
@@ -20,7 +21,7 @@ body {
     font-family: var(--main-font);
 }
 
-.navbar {
+.navbarr {
     background-color: #fff;
     display: flex;
     justify-content: space-between;
@@ -30,10 +31,11 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-weight: bold;
 }
-.nav-links a:hover{
+.nav-linkss a:hover{
+    text-decoration: none;
     color: var(--main-color);
 }
-.navbar .nav-links .menu-link.active{
+.navbarr .nav-linkss .menu-link.active{
     font-weight: bold;
     color: var(--main-color);
 }
@@ -53,39 +55,39 @@ body {
     font-size: 17px; /* Menyesuaikan ukuran teks sesuai kebutuhan */
     color: #FFD; /* Warna teks */
   }
-.logo img {
+.logoo img {
     width: 70px;
     height: 41px;
 }
 
-.nav-links {
+.nav-linkss {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.nav-links li {
+.nav-linkss li {
     margin: 0 15px;
 }
 
-.nav-links a {
+.nav-linkss a {
     text-decoration: none;
     color: #393939;
 }
 
 /* Add a media query for responsive design */
 @media (max-width: 768px) {
-    .nav-links {
+    .nav-linkss {
         display: none;
     }
     
-    .navbar {
+    .navbarr {
         flex-direction: column;
         align-items: center;
     }
     
-    .logo img {
+    .logoo img {
         margin-bottom: 20px;
     }
 }
@@ -93,8 +95,34 @@ body {
 
 
 /* awal home */
+.containerHome {
+    padding: 50px 25px;
+    font-family: var(--main2-font);
+}
+#warnaKons{
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: #FFFFDD;
+}
+.containerKons{
+    display: flex;
+    width: 700px; 
+    height: auto; 
+    background: white; 
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.50); 
+    border-radius: 15px;
+}
+.geser{
+    width: 500px;
+}
 
+.dalamKons{
+    padding: 30px 30px;
+}
 
+#buttonBalasan{
+    right: 0;
+}
 
 /* untuk rekomendasi pengobatan 2 */
 /* bagian rekomendasi (infoKesehatan) */
