@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>web angina</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kesehatan.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Informasi Kesehatan</title>
+    <link rel="icon" type="image/x-icon" href="gambar/logo angina.png">
 </head>
 <body>
-  <header>
-    <a href="#" class="logo"><img src="/gambar/logo angina.png" alt=""></a>
+<header>
+    <nav class="navbar">
+        <div class="container nav-wrapper">
+            <a href="#" class="logo"><img src="gambar/logo angina.png" alt="Angina"></a>
+            <div class="menu-wrapper">
+                <ul class="menu">
+                    <li class="menu-items"><a href="/home.html" class="menu-link">Beranda</a></li>
+                    <li class="menu-items"><a href="/infoKesehatan.html" class="menu-link active">Info Kesehatan</a></li>
+                    <li class="menu-items"><a href="/konsultasi.html" class="menu-link">Konsultasi</a></li>
+                </ul>
+                <a href="#" class="icon-user"><i class='bx bxs-user-rectangle bx-lg'></i></a>
+            </div>
+        </div>
+    </nav>
 
-    <ul class="navbar">
-      <li><a href="#" class="active">Beranda</a></li>
-      <li><a href="#">Info Kesehatan</a></li>
-      <li><a href="#">Konsultasi</a></li>
-    </ul>
-    <div class="main">
-      <a href="#" class="user"><i class="ri-user-fill"></i>Masuk</a>
-      <a href="#">Daftar</a>
-      <div class="bx bx-menu" id="menu-icon"></div>
+    <div class="abu">
+        <form action="">
+            <input type="text" placeholder="Search">
+            <button type="submit"><i class='bx bx-search-alt-2'></i></button>
+        </form>
     </div>
-  </header>
+    <section class="box-judul">
+        <div class="container judul">
+            <h1 class="heading">Tips Hidup Sehat</h1>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
+    <section class="home" id="home">
+        <div class="container box-content">
+            <div class="box-content-2">
+                <h1>TIPS DALAM MENGHINDARI PENYAKIT ANGIN DUDUK</h1><br>
+                <p>Angin duduk ( Angina )  adalah kondisi medis yang terjadi karena pasokan darah ke otot jantung terhambat. Untuk menghindari penyakit ini, Anda hanya perlu menjaga kesehatan. Tips untuk menjaga kesehatan sebagai berik... </p>
+                <button type="submit">Baca Selengkapnya</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="rekomendasi-pengobatan">
+        <div class="pengobatan2">
+            <div class="containerBox">
+                <div class="box-1">
+                    <img class="img" src="gambar/orang home.jpeg" alt="">
+                    <h1>Rangkaian Pengobatan</h1>
+                    <p>Penyakit dapat diobati dengan obat atau terapi. Walaupun penyakit ini tid...</p>
+                    <button type="submit">Baca Selengkapnya</button>
+                </div>
+                <div class="box-2">
+                    <img class="img" src="gambar/tips1.jpeg" alt="">
+                    <h1>Prosedur Penyembuhan</h1>
+                    <p>Jika Anda di diagnosis penyakit ini, dan sudah dalam tahap terapi pemberian obat dan terapi. Namun, belum kunjung...</p>
+                    <button type="submit">Baca Selengkapnya</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
 </body>
 </html>

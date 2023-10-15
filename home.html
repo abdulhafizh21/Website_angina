@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>web angina</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap"
-      rel="stylesheet"
-    /> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.layoutit.com/share/view/9cded00d288151a063fd236e412479e6">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="/gambar/logo angina.png">
   </head>
   <body>
-    <header>
-      <a href="#" class="logo"><img src="/gambar/logo angina.png" alt="" /></a>
-
-      <ul class="navbar">
-        <li><a href="#" class="active">Beranda</a></li>
-        <li><a href="#">Info Kesehatan</a></li>
-        <li><a href="#">Konsultasi</a></li>
-      </ul>
-      <div class="main">
-        <a href="#" class="user"><i class="ri-user-fill"></i>Masuk</a>
-        <a href="#" class="daftar">Daftar</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo">
+          <img src="/gambar/logo angina.png" alt="Logo">
       </div>
-    </header>
+      <ul class="nav-links">
+          <li class="menu-items"><a href="#" class="menu-link active">Beranda</a></li>
+          <li><a href="/infoKesehatan.html">Info Kesehatan</a></li>
+          <li><a href="#">Konsultasi</a></li>
+              <li><a href="login.hml"><button class="border-button">Masuk</button></a></li>
+              <li><a href="register.hml"><button class="border-buttonn">Daftar</button></a></li>
+             
+      </ul>
+  </nav>
 
     <!-- isi home -->
-    <div class="containerHome">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>
+            Heading
+          </h2>
+          <p>
+            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+          </p>
+          <p>
+            <a class="btn" href="#">View details »</a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+        </div>
+      </div>
+    </div>
+    <!-- <div class="containerHome">
       <div class="isiHome">
         <h1>Angina Pectoris</h1>  
         <h3><a><img src="/gambar/orang home.jpeg" alt="orang"></a></h3>
@@ -86,10 +92,9 @@
            <li>Sesak napas</li>
           </ul>
       </div>
+   </div> -->
 
-      
-    </div>
-<div></div>
+
     <script src="script.js"></script>
   </body>
 </html>
