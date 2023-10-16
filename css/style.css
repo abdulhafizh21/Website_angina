@@ -115,6 +115,9 @@ body {
 .geser{
     width: 500px;
 }
+#btnBalasan {
+    float: right;
+}
 
 .dalamKons{
     padding: 30px 30px;
@@ -123,6 +126,41 @@ body {
 #buttonBalasan{
     right: 0;
 }
+
+footer{
+    background-color: #DDE8E8;
+}
+.logodanisi img{
+    width: 134px; 
+    height: 94px
+}
+.logodanisi h5{
+    color: #51A061;
+
+}
+
+  .comment-form textarea {
+    width: 250px; 
+    height: 120px; 
+    background: white; 
+    border-radius: 15px; 
+    border: 2px black solid;
+
+    /* width: 100%;
+    padding: 10px; */
+    margin-top: 10px;
+    /* border: 1px solid #ccc;
+    border-radius: 3px; */
+  }
+  
+  .comment-form button {
+    background-color: var(--main-color);
+    color: #FFFFDD;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
 
 /* untuk rekomendasi pengobatan 2 */
 /* bagian rekomendasi (infoKesehatan) */
