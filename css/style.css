@@ -76,6 +76,24 @@ body {
     text-decoration: none;
     color: #393939;
 }
+.icon-user-fill {
+    /* Add dimensions to span */
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    /* Add background image */
+    background-image: url('https://api.iconify.design/ri/user-fill.svg?color=%23016a70');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ .icon-user{
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    color: var(--main-color);
+ }
 
 /* Add a media query for responsive design */
 @media (max-width: 768px) {
@@ -241,7 +259,7 @@ footer{
 /* untuk rekomendasi pengobatan 2 */
 /* bagian rekomendasi (infoKesehatan) */
 .pengobatan2{
-    height: 100vh;
+    height: 135vh;
     background-color:#393939 ;
     padding: 0;
 }
