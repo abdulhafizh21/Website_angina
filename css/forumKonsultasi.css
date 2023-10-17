@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none; 
+}
+
+:root{
+    --bg-color: #fff;
+    --text-color: #393939;
+    --main-color: #016A70;
+
+    --main-font: 'Poppins', sans-serif;
+    --main2-font: 'Lato', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+}
+
+.navbarr {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: var(--main-font);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.167);
+    font-weight: bold;
+}
+.nav-linkss a:hover{
+    text-decoration: none;
+    color: var(--main-color);
+}
+.navbarr .nav-linkss .menu-link.active{
+    font-weight: bold;
+    color: var(--main-color);
+}
+.border-button {
+    padding: 2px 4px;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    background-color: transparent; /* Menghilangkan latar belakang */
+    font-size: 17px; /* Menyesuaikan ukuran teks sesuai kebutuhan */
+    color: var(--main-color); /* Warna teks */
+  }
+  .border-buttonn {
+    padding: 2px 4px;
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+    background-color: var(--main-color); /* Menghilangkan latar belakang */
+    font-size: 17px; /* Menyesuaikan ukuran teks sesuai kebutuhan */
+    color: #FFD; /* Warna teks */
+  }
+.logoo img {
+    margin-left: 30px;
+    width: 60px;
+    height: 41px;
+}
+
+.nav-linkss {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-linkss li {
+    margin: 0 15px;
+}
+
+.nav-linkss a {
+    text-decoration: none;
+    color: #393939;
+}
+.icon-user-fill {
+    /* Add dimensions to span */
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    /* Add background image */
+    background-image: url('https://api.iconify.design/ri/user-fill.svg?color=%23016a70');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ .icon-user{
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    color: var(--main-color);
+ }
+
+/* Add a media query for responsive design */
+@media (max-width: 768px) {
+    .nav-linkss {
+        display: none;
+    }
+    
+    .navbarr {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logoo img {
+        margin-bottom: 20px;
+    }
+}
+/* navbar end */
+
+
+
+
+
+/* footer */
+footer{
+    background-color: #DDE8E8;
+}
+.logodanisi img{
+    width: 134px; 
+    height: 94px
+}
+.logodanisi h5{
+    color: #51A061;
+
+}
+
+  .comment-form textarea {
+    width: 250px; 
+    height: 120px; 
+    background: white; 
+    border-radius: 15px; 
+    border: 2px black solid;
+
+    /* width: 100%;
+    padding: 10px; */
+    margin-top: 10px;
+    /* border: 1px solid #ccc;
+    border-radius: 3px; */
+  }
+  
+  .comment-form button {
+    background-color: var(--main-color);
+    color: #FFFFDD;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }

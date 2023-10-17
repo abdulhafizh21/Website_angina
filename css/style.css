@@ -28,7 +28,7 @@ body {
     align-items: center;
     padding: 20px;
     font-family: var(--main-font);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.167);
     font-weight: bold;
 }
 .nav-linkss a:hover{
