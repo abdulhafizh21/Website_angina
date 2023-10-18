@@ -159,7 +159,7 @@ nav .brand img {
     margin: 10px;
     width: 350px;
     height: auto;
-    padding: 10px 1rem 1rem;
+    padding: 10px 0rem 1rem;
     border-bottom: 2px solid #888888;
 }
 .content .left .lefta button{
@@ -192,7 +192,7 @@ nav .brand img {
     margin: 10px;
     width: 350px;
     height: auto;
-    padding: 5px 1rem 1rem;
+    padding: 5px 0rem 1rem;
     border-bottom: 2px solid #888888;
 }
 
@@ -243,7 +243,7 @@ nav .brand img {
     margin: 10px;
     width: 350x;
     height: auto;
-    padding: 5px 1rem 1rem;
+    padding: 5px 0rem 1rem;
     border-bottom: 2px solid #888888;
 }
 
@@ -260,16 +260,15 @@ nav .brand img {
     margin: 10px;
     width: 350x;
     height: auto;
-    padding: 5px 1rem 1rem;
-    border-bottom: 2px solid #888888;
+    padding: 5px 0rem 1rem;
 }
 
 /* END LEFT D */
 
 /* END LEFT */
 
-/* /* RIGHT  */
-.content .right {
+/* RIGHT  */
+.content .rightA {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -290,15 +289,18 @@ nav .brand img {
 }
 
 .content .right button{
-    background-color: white;
+    background-color: #f5f5f5;
     height: 45px;
     width: 140px;
-    border-color: 1px 1px #016A70;
+	border-radius: 10px;
+	border-style: none;
+	box-shadow: 1px 1px 1px #393939;
 }
 .content .right button:hover{
     background-color: #016A70;
     transition: all;
     transition-duration: 300ms;
+	box-shadow: 1px 1px 2px #888888;
 }
 .content .right h2{
     font-weight: bold;
