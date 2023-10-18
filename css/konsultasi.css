@@ -157,7 +157,7 @@ nav .brand img {
     position: relative;
     flex: 1;
     margin: 10px;
-    width: 350px;
+    max-width: 420px;
     height: auto;
     padding: 10px 0rem 1rem;
     border-bottom: 2px solid #888888;
@@ -190,7 +190,7 @@ nav .brand img {
     position: relative;
     flex: 1;
     margin: 10px;
-    width: 350px;
+    max-width: 380px;
     height: auto;
     padding: 5px 0rem 1rem;
     border-bottom: 2px solid #888888;
@@ -242,7 +242,7 @@ nav .brand img {
     position: relative;
     flex: 1;
     margin: 10px;
-    width: 350x;
+    width: 380px;
     height: auto;
     padding: 5px 0rem 1rem;
     border-bottom: 2px solid #888888;
@@ -259,7 +259,7 @@ nav .brand img {
     position: relative;
     flex: 1;
     margin: 10px;
-    width: 350x;
+    max-width: 380px;
     height: auto;
     padding: 5px 0rem 1rem;
 }
@@ -310,6 +310,8 @@ nav .brand img {
     border-radius: 50px;
     padding: 10px 2rem;
 }
+/*  */
+
 
 .content .rightb .dokter1{
 	display: flex;
@@ -319,12 +321,31 @@ nav .brand img {
 	flex: 1;
 	width: 1080px;
 	height: auto;
+	margin-bottom: 50px;
 }
 
 .content .rightb .dokter1A{
 	margin: 0;
 }
 
+.content .rightb .dokter1A h1{
+	margin-bottom: 7px;
+	font-size: 40px;
+}
+
+.content .rightb .dokter1A h2{
+	margin-bottom: 9px;
+	font-size: 30px;
+	font-family: 'Poppins', 'Montserrat', sans-serif;
+	color: #888888;
+}
+
+.content .rightb .dokter1A h4{
+	font-size: small;
+	color: #9f9f9f;
+	font-family: 'Poppins', 'Montserrat', sans-serif;
+	margin-top: 10px;
+}
 .content .rightb .dokter1A img{
 	height: 250px;
 	width: auto;
@@ -334,6 +355,8 @@ nav .brand img {
 .content .rightb .dokter1 .dokter1atra{
 	display: flex;
 	align-items: end;
+	font-family: 'Poppins', 'Montserrat', sans-serif;
+	gap: 1rem;
 }
 
 .content .rightb .dokter1 .dokter1atra img{
@@ -341,9 +364,89 @@ nav .brand img {
 }
 
 .content .rightb .dokter1 .dokter1atr .harga{
+	align-items: center;
 	display: flex;
+	font-family: 'Poppins', 'Montserrat', sans-serif;
+	gap: 1rem;
 }
 
+.content .rightb .dokter1 .dokter1atr .harga h1{
+	color: #FF8A00;
+	font-size: larger;
+}
+.content .rightb .dokter1 .dokter1atr .harga h2{
+	color: #393939;
+	font-size: small;
+	text-decoration: line-through;
+}
+
+/*  */
+.content .rightb .dokter2{
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	position: relative;
+	flex: 1;
+	width: 1080px;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.content .rightb .dokter2A{
+	margin: 0;
+}
+
+.content .rightb .dokter2A h1{
+	margin-bottom: 7px;
+	font-size: 40px;
+}
+
+.content .rightb .dokter2A h2{
+	margin-bottom: 9px;
+	font-size: 30px;
+	font-family: 'Poppins', 'Montserrat', sans-serif;
+	color: #888888;
+}
+
+.content .rightb .dokter2A h4{
+	font-size: small;
+	color: #9f9f9f;
+	font-family: 'Poppins', 'Montserrat', sans-serif;
+	margin-top: 10px;
+}
+.content .rightb .dokter2A img{
+	height: 250px;
+	width: auto;
+	gap: 0rem;
+}
+
+.content .rightb .dokter2 .dokter2atra{
+	display: flex;
+	align-items: end;
+	font-family: 'Poppins', 'Montserrat', sans-serif;
+	gap: 1rem;
+}
+
+.content .rightb .dokter2 .dokter2atra img{
+	height: 35px;
+}
+
+.content .rightb .dokter2 .dokter2atr .harga{
+	align-items: center;
+	display: flex;
+	font-family: 'Poppins', 'Montserrat', sans-serif;
+	gap: 1rem;
+}
+
+.content .rightb .dokter2 .dokter2atr .harga h1{
+	color: #FF8A00;
+	font-size: larger;
+}
+.content .rightb .dokter2 .dokter2atr .harga h2{
+	color: #393939;
+	font-size: small;
+	text-decoration: line-through;
+}
 .content .right h1{
     font-size: larger;
     font-family: 'Poppins', 'Montserrat', sans-serif;
