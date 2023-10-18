@@ -2,32 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="css/konsultasi.css">
+    <title>Angina - Konsultasi</title>
 </head>
 <body>
-    <!-- HEADER -->
-    <nav>
-        <div class="brand">
-            <a href="home.html"><img src="gambar/logo angina.png"></a>
+
+    
+    <div class="container">
+       
+        <!-- HEADER -->
+        <div class="row">
+            <div class="header"></div>
+                <nav>
+                    <div class="brand">
+                        <a href="#"><img src="gambar/logo angina.png" alt="logo angina"></a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#">Info Kesehatan</a>
+                        </li>
+                        <li>
+                            <a href="#">Konsultasi</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="gambar/loged.png" alt="login"></a>
+                        </li>
+                    </ul>
+                </nav>
         </div>
-        <ul>
-            <li>
-                <a href="#">Beranda</a>
-            </li>
-            <li>
-                <a href="#">Info Kesehatan</a>
-            </li>
-            <li>
-                <a href="#">Konsultasi</a>
-            </li>
-            <li>
-                <a href="login.html"><img src="gambar/loged.png" alt="Login"></a>
-            </li>
-        </ul>
-    </nav>
-    <!-- END HEADER -->
+
+        <!-- END HEADER -->
+
+        <!-- NAVIGATION -->
+        <div class="row">
+            <div class="navigation">
+                <div class="search">
+                    <img src="gambar/search_icon.png" alt="cari">
+                    <form>
+                        <input type="text" placeholder="Cari Dokter">
+                    </form>
+                </div>
+                <div class="location">
+                    <img src="gambar/Icon_location.png" alt="alamat">
+                    <form>
+                        <input type="text" placeholder="Tambahkan Lokasi Kamu">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- END NAVIGATION -->
+
+        <!-- CONTENT -->
+        <div class="row">
+            <div class="content">
+                <div class="left">
+                    <div class="lefta">
+                        <h1>Filter</h1>
+                        <button>Reset</button>
+                    </div>
+                    <div class="leftb">
+                        <h1>Tipe Konsultasi</h1><br>
+                        <div class="radio-group">
+                            <label class="form-control">
+                                <input type="radio" name="pilihan" value="Semua Tipe" checked>
+                                <p>Semua Tipe</p>
+                                <span></span>
+                            </label>
+                            <label class="form-control">
+                                <input type="radio" name="pilihan" value="Chat">
+                                <p>Chat</p>
+                                <span></span>
+                            </label>
+                            <label class="form-control">
+                                <input type="radio" name="pilihan" value="Video Call">
+                                <p>Video Call</p>
+                                <span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="leftc">
+                        <h1>Harga Konsultasi</h1><br>
+                        <div class="radio-group">
+                            <label class="form-control">
+                                <input type="radio" name="pilihan" value="dibawah" checked>
+                                <p>< Rp 200.000</p>
+                                <span></span>
+                            </label>
+                            <label class="form-control">
+                                <input type="radio" name="pilihan" value="sama dengan">
+                                <p>Rp 200.000 - Rp 300.000</p>
+                                <span></span>
+                            </label>
+                            <label class="form-control">
+                                <input type="radio" name="pilihan" value="diatas">
+                                <p>> Rp 250.000</p>
+                                <span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="leftd">
+                        <h1>Pengalaman Kerja</h1><br>
+                        <div class="radio-group">
+                            <label class="form-control">
+                                <input type="radio" name="pilihan" value="dibawah" checked>
+                                <p>Dibawah 5 Tahun</p>
+                                <span></span>
+                            </label>
+                            <label class="form-control">
+                                <input type="radio" name="pilihan" value="sama dengan">
+                                <p>5 - 7 Tahun</p>
+                                <span></span>
+                            </label>
+                            <label class="form-control">
+                                <input type="radio" name="pilihan" value="diatas">
+                                <p>Diatas 10 Tahun</p>
+                                <span></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1>Hasil Pencarian</h1>
+                    <button><h2>Lihat Semua</h2></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- END CONTENT -->
+
+        <!-- FOOTER -->
+        <div class="row">
+            <div class="footer">
+                <h1>footer</h1>
+            </div>
+        </div>
+
+        <!-- END FOOTER -->
+    </div>
 </body>
 </html>
