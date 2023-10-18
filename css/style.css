@@ -361,26 +361,26 @@ footer{
     height: auto;
     position:absolute;
     left: 90%;
-    top: 130%;
+    top: 153%;
     transform:translatex(-53%);
 }
 
 .pictureDua{
-    width: 300px;
+    width: 310px;
     height: auto;
     position:absolute;
     left: 90%;
-    top: 170%;
+    top: 196%;
     transform:translatex(-53%);
     /* margin-left: 20px; */
 }
 
 .pictureTiga{
-    width: 270px;
+    width: 280px;
     height: auto;
     position:absolute;
     left: 90%;
-    top: 215%;
+    top: 248%;
     transform:translatex(-53%);
 }
 
@@ -389,7 +389,7 @@ footer{
     height: auto;
     position:absolute;
     left: 90%;
-    top: 270%;
+    top: 308%;
     transform:translatex(-53%);
 }
 
