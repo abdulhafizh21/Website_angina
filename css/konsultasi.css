@@ -130,7 +130,7 @@ nav .brand img {
     position: relative;
     flex: 1;
     margin: 0px;
-    max-width: 400px;
+    max-width: 450px;
     height: auto;
     border-radius: 50px;
     padding: 10px 2rem;
@@ -159,8 +159,8 @@ nav .brand img {
     margin: 10px;
     width: 350px;
     height: auto;
-    padding: 10px 1rem 2rem;
-    border-bottom: 1px solid black;
+    padding: 10px 1rem 1rem;
+    border-bottom: 2px solid #888888;
 }
 .content .left .lefta button{
     font-family: 'Poppins', 'Montserrat', sans-serif;
@@ -193,7 +193,7 @@ nav .brand img {
     width: 350px;
     height: auto;
     padding: 5px 1rem 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #888888;
 }
 
 .radio-group{
@@ -229,6 +229,42 @@ nav .brand img {
 .form-control input[type="radio"]{
     border: #016A70;
 }
+
+/* END LEFT B */
+
+/* LEFT C */
+.content .left .leftc{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    width: 350x;
+    height: auto;
+    padding: 5px 1rem 1rem;
+    border-bottom: 2px solid #888888;
+}
+
+/* END LEFT C */
+
+/* LEFT D */
+.content .left .leftd{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    width: 350x;
+    height: auto;
+    padding: 5px 1rem 1rem;
+    border-bottom: 2px solid #888888;
+}
+
+/* END LEFT D */
 
 /* END LEFT */
 
